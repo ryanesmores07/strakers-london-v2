@@ -1,0 +1,60 @@
+<section>
+  <div class="s-image-grid">
+    <div class="container">
+      <div class="flex s-image-grid-flex">
+        <img class="grid-image-one parallax_scroll" src="{{section.settings.image-one | img_url: '1024x'}}">
+        <img class="grid-image-two" src="{{section.settings.image-two | img_url: '1024x'}}">
+        <img class="grid-image-three" src="{{section.settings.image-three | img_url: '1024x'}}">
+        <img class="grid-image-four parallax_scroll" src="{{section.settings.image-four | img_url: '1024x'}}">
+        <img class="grid-image-five" src="{{section.settings.image-five | img_url: '1024x'}}">
+        <img class="grid-image-six parallax_scroll" src="{{section.settings.image-six | img_url: '1024x'}}">
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Strakers Image Grid",
+  "tag": "section",
+  "class": "image-grid",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image-one",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image-two",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image-three",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image-four",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image-five",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image-six",
+      "label": "Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Strakers Image Grid",
+      "category": "Strakers"
+    }
+  ]
+}
+{% endschema %}

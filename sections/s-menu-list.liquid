@@ -1,0 +1,73 @@
+<section id="menu" class="section-menu-list">
+  <div class="container">
+    
+    <div class="flex menu-flex">
+      <div class="s-menu-image">
+        <img src="{{section.settings.menu-image | img_url: '1024x'}}">
+      </div>
+      <div class="s-menu-listing">
+        {% for block in section.blocks %}
+          {% case block.type %}
+            {% when 'menu-list' %}
+              <div class="list" {{ block.shopify_attributes }}>
+                {% if block.settings.list-menu-section-title%}
+                  <h2>{{ block.settings.list-menu-section-title }}</h2>
+                {% endif %}
+                <div class="flex menu-flex"><span>{{ block.settings.list-menu }}</span><span>{{ block.settings.list-menu-price }}</span></div>
+              </div>
+          {% endcase %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Strakers Menu",
+  "tag": "section",
+  "class": "menu-list",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "menu-image",
+      "label": "Image"
+    },
+    {
+      "type": "textarea",
+      "id": "introduction-block",
+      "label": "Text",
+      "default": "We are Strakers"
+    }
+  ],
+  "blocks": [
+     {
+       "name": "List menu",
+       "type": "menu-list",
+       "settings": [
+         {
+           "type": "text",
+           "id": "list-menu",
+           "label": "Item"
+         },
+         {
+           "type": "text",
+           "id": "list-menu-price",
+           "label": "Price"
+         },
+         {
+           "type": "text",
+           "id": "list-menu-section-title",
+           "label": "Section Title"
+         }
+       ]
+     }
+  ],
+  "presets": [
+    {
+      "name": "Strakers Menu Block",
+      "category": "Strakers"
+    }
+  ]
+}
+{% endschema %}

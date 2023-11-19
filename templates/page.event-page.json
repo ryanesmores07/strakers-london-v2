@@ -1,0 +1,41 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "8e7f9461-7fde-49b2-9149-341af52c3a2d": {
+      "type": "s-full-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/JohnnyStephensPhotography-06-0E8A8722-Edit.jpg"
+      }
+    },
+    "27c19b2a-cd45-40cd-ba58-35c52b0f0934": {
+      "type": "s-about-text-small",
+      "settings": {
+        "text-block": "CASAMIGOS TEQUILA AND THOMAS STRAKER INVITE YOU TO A NIGHT-LIKE-NO-OTHER AT STRAKER’S.",
+        "paragraph": "<p><strong>For one night only<\/strong>, super-premium tequila brand, Casamigos Tequila, is partnering up with our very own renowned chef Thomas Straker for a special Casamigos experience.<\/p><p><\/p><p>On Thursday 1st of December, STRAKER'S will be serving guests an exclusive menu, specially curated for the evening and masterfully paired with bespoke Casamigos Tequila cocktails.<\/p><p><\/p><p>‘Made by friends for friends’, Casamigos is offering you the chance to kick off the festive month with STRAKER’S with this interactive evening dedicated to culinary excellence and delicious cocktails in an unmatched atmosphere. Best enjoyed with friends.<\/p>"
+      }
+    },
+    "4a934957-085a-4d58-8051-82f50dbb30be": {
+      "type": "s-full-logo",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/tequila_logo.png"
+      }
+    },
+    "944d388b-b298-4e84-8555-3da66bc5a5a6": {
+      "type": "s-resy-widget-two",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "8e7f9461-7fde-49b2-9149-341af52c3a2d",
+    "27c19b2a-cd45-40cd-ba58-35c52b0f0934",
+    "4a934957-085a-4d58-8051-82f50dbb30be",
+    "944d388b-b298-4e84-8555-3da66bc5a5a6"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 28
+      }
+    },
+    "cf0ee955-2be2-4cfa-a21e-88468887e80d": {
+      "type": "s-title",
+      "settings": {
+        "title-block": "We are Straker's"
+      }
+    },
+    "4d51a1b8-ad0b-44b5-b409-7b5d03755ec2": {
+      "type": "s-about-text",
+      "custom_css": [],
+      "settings": {
+        "text-block": "Found in the heart of Notting Hill's bustling Golborne Road, a hub of cultures and culinary delights. Thomas Straker's first restaurant serving a neighbourhood vibe with great music, cocktails and food you, and Thomas, love to eat."
+      }
+    },
+    "4341b4f4-e541-4e04-8e42-23a6396b3209": {
+      "type": "s-image-grid-2",
+      "settings": {
+        "image-one": "shopify:\/\/shop_images\/wild_garlic_aggiloti_8ef3f8ea-c355-4243-8a36-9fe6f698959e.jpg",
+        "image-two": "shopify:\/\/shop_images\/GENTLEMANS_JOURNAL_STRAKERS_208_1_679e9589-e430-4f6d-8b1b-36ca8890c0ba.jpg",
+        "image-three": "shopify:\/\/shop_images\/GENTLEMANS_JOURNAL_STRAKERS_96_2_62f82472-d8a4-4d32-800e-fb4fbde56546.jpg",
+        "image-five": "shopify:\/\/shop_images\/IMG_6734_e14cfc0c-9257-4d60-8b5d-13fb887f7dd0.jpg"
+      }
+    },
+    "b640b5f3-206b-4546-b5c8-7dc06e76d8a3": {
+      "type": "s-about-text",
+      "settings": {
+        "text-block": "PLEASE BE AWARE THAT WE ARE OPERATING AS A CASHLESS VENUE. WE KEEP SOME SPACE FOR WALK-INS ACROSS THE WEEK, SO SWING BY FOR A BITE, DELECTABLE WINES AND COCKTAILS. PLEASE LET US KNOW OF ANY DIETARY REQUIREMENTS AT LEAST 24HRS IN ADVANCE OF YOUR BOOKING, SO THAT WE MAY BEST ACCOMMODATE ALL OF YOUR GUESTS. IF YOU'RE RUNNING LATE WE WILL HOLD THE TABLE FOR A GRACE PERIOD OF 15 MINUTES BEFORE OFFERING THE RESERVATION TO OUR WAITING LIST. BOOKINGS FOR 2-5 GUESTS WILL HAVE 2HR TIME TO DINE WITH US AND 6+ TABLES 2.5HRS"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cf0ee955-2be2-4cfa-a21e-88468887e80d",
+    "4d51a1b8-ad0b-44b5-b409-7b5d03755ec2",
+    "4341b4f4-e541-4e04-8e42-23a6396b3209",
+    "b640b5f3-206b-4546-b5c8-7dc06e76d8a3"
+  ]
+}

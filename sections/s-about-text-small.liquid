@@ -1,0 +1,60 @@
+<style>
+.par-max-width {
+  max-width: 900px;
+  display: block;
+}
+
+.no-padd-top {
+  padding-top: 10px !important;
+}
+
+.no-padd-bottom {
+  padding-bottom: 10px !important;
+}
+
+.s-text-area-center {
+  text-align: center;
+}
+
+.s-text-area-center > * {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+</style>
+
+<section class="s-text-area-container">
+  <div class="container">
+    <div class="s-text-area no-padd-top no-padd-bottom s-text-area-center">
+      <h2 >{{section.settings.text-block}}</h2>
+      <span class="par-max-width">{{section.settings.paragraph}}</span>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Strakers Text Block",
+  "tag": "section",
+  "class": "about-text-small",
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "text-block",
+      "label": "Text",
+      "default": "We are Strakers"
+    },
+    {
+      "type": "richtext",
+      "id": "paragraph",
+      "label": "Text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Strakers Text Block Small",
+      "category": "Strakers"
+    }
+  ]
+}
+{% endschema %}

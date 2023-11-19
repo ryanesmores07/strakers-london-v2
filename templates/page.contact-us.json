@@ -1,0 +1,31 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 28
+      }
+    },
+    "cf0ee955-2be2-4cfa-a21e-88468887e80d": {
+      "type": "s-title",
+      "settings": {
+        "title-block": "Contact Us"
+      }
+    },
+    "4d51a1b8-ad0b-44b5-b409-7b5d03755ec2": {
+      "type": "s-about-text",
+      "custom_css": [
+        "h2 {font-size: 16px;}"
+      ],
+      "settings": {
+        "text-block": "STRAKER’S <br>\n91 Golborne Road <br>\nLondon <br>\nW10 5NL<br>\n<br><br>\n\n<strong>reservations<\/strong><br>\n<a href=\"mailto:reservations@strakers.London\">reservations@strakers.London <\/a>\n<br><br>\n<strong>Careers<\/strong><br>\n<a href=\"mailto:careers@strakers.London\">careers@strakers.London<\/a>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cf0ee955-2be2-4cfa-a21e-88468887e80d",
+    "4d51a1b8-ad0b-44b5-b409-7b5d03755ec2"
+  ]
+}

@@ -1,0 +1,29 @@
+<section class="s-text-area-container">
+  <div class="container">
+    <div class="s-text-area">
+      <h2>{{section.settings.text-block}}</h2>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Strakers Text Block",
+  "tag": "section",
+  "class": "about-text",
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "text-block",
+      "label": "Text",
+      "default": "We are Strakers"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Strakers Text Block",
+      "category": "Strakers"
+    }
+  ]
+}
+{% endschema %}

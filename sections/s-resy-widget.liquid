@@ -1,0 +1,28 @@
+<section id="booking" class="resy-widget-container">
+  <h2>Book a table</h2>
+  <p>To make a reservation, use the button below or <a href="https://resy.com/cities/ldn/strakers?date=2022-10-09&seats=2" target="_blank">click here</a></p>
+  <div class="s-resy-widget">
+    <a href="https://resy.com/cities/ldn/venues/strakers/events/casamigos-x-strakers-2022-12-01" id="resyButton-n9wbpetq">Book your table on Resy</a>
+    <script src="https://widgets.resy.com/embed.js"></script>
+    <script>
+        resyWidget.addButton(document.getElementById('resyButton-n9wbpetq'), {"venueId":62873,"apiKey":"sZabM8GQxfmle3fX1X5YMNUn6WsJh4O6","replace":true});
+    </script>
+  <div>
+</section>
+
+{% schema %}
+{
+  "name": "Strakers resy",
+  "tag": "section",
+  "class": "resy-widget",
+  "settings": [
+
+  ],
+  "presets": [
+    {
+      "name": "Strakers Resy",
+      "category": "Strakers"
+    }
+  ]
+}
+{% endschema %}

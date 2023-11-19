@@ -1,0 +1,41 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c816237e-7829-44a8-bd9a-aea66205f9a9": {
+      "type": "s-about-text",
+      "settings": {
+        "text-block": "Found in the heart of Notting Hill's bustling Golborne Road, a hub of cultures and culinary delights. Thomas Straker's first restaurant serving a neighborhood vibe with great music, cocktails and food you, and Thomas, love to eat."
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "c816237e-7829-44a8-bd9a-aea66205f9a9"
+  ]
+}

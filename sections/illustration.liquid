@@ -1,0 +1,30 @@
+<section class="s-section-illustraion">
+  <div class="s-illustration">
+    <div class="container">
+      <div class="s-illustration-inner">
+        <img class="parallax_scroll" src="{{section.settings.illustration | img_url: '1024px'}}">
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Strakers Illustration",
+  "tag": "section",
+  "class": "illustration",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "illustration",
+      "label": "Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Strakers Illustration",
+      "category": "Strakers"
+    }
+  ]
+}
+{% endschema %}

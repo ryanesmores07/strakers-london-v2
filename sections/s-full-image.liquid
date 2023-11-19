@@ -1,0 +1,38 @@
+<style>
+.s-image-wrapper {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.s-image-wrapper img{
+  width: 100%;
+}
+
+</style>
+
+<section class="s-image-wrapper">
+  <div class="container">
+      <img class="full-width-image" src="{{section.settings.image | img_url: '1024x'}}">
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Strakers Full Image",
+  "tag": "section",
+  "class": "about-text-small",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Strakers Full Image",
+      "category": "Strakers"
+    }
+  ]
+}
+{% endschema %}
